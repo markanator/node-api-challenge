@@ -1,6 +1,7 @@
 const express = require("express");
 // imports
 const ProjectRouter = require("./projects/projectRouter");
+const ActionsRouter = require("./actions/actionsRouter");
 // middlwares
 const logger = require("./middleware/logger");
 // init setup
@@ -19,6 +20,8 @@ server.get("/", (req, res) => {
 
 // cusom routes
 server.use(ProjectRouter);
+server.use(ActionsRouter);
+
 // error checking
 server.use((error, req, res, next) => {
     // console.log(error);
