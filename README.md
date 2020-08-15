@@ -1,5 +1,33 @@
 # Sprint Challenge: Express and Node.js - Projects & Actions
 
+## Heroku LINK
+
+# [HERKO HOSTED API](https://ambro-node-sprint1.herokuapp.com/)
+
+## Interview Questions
+
+Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
+
+1. The core features of Node.js and Express and why they are useful.
+    - NodeJS lets developers use JS to write server code. Express extends Node by providing routing, middleware suport among other features, to simplify REST architecture.
+2. Understand and explain the use of Middleware?
+    - Middleware are like functions that are run in the order we place them in our server/ routes. Small functions that can handle things like Auth, validation etc.
+3. The basic principles of the REST architectural style.
+    - A RESTful system consists of a client who requests resources and a server who has the resources.
+    - There are 6 principles:
+        1. Uniform Interface
+        2. Stateless
+        3. Cacheable
+        4. client / server
+        5. Layered system
+        6. Code on Demand
+4. Understand and explain the use of Express Routers.
+    - Routes associate an HTTP verb (POST/GET/PUT/DELETE) a URL path, and a function to handle that pattern
+5. Describe tooling used to manually test the correctness of an API.
+    - aplications that let us test endpoints by allowing control when making requests. Testing CRUD ops in the application.
+
+You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
+
 ## Description
 
 In this challenge, you design and create a web API to manage the following resources: `Projects` and `Actions`.
@@ -16,12 +44,12 @@ The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
 
--   [ ] Create a forked copy of this project.
--   [ ] Add your _Team Lead_ as collaborator on Github.
--   [ ] Clone your forked version of the Repository.
--   [ ] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
--   [ ] Implement the project on this Branch, committing changes regularly.
--   [ ] Push commits: git push origin `firstName-lastName`.
+-   [x] Create a forked copy of this project.
+-   [x] Add your _Team Lead_ as collaborator on Github.
+-   [x] Clone your forked version of the Repository.
+-   [x] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
+-   [x] Implement the project on this Branch, committing changes regularly.
+-   [x] Push commits: git push origin `firstName-lastName`.
 
 Follow these steps for completing your project.
 
@@ -34,29 +62,15 @@ Follow these steps for completing your project.
 
 Commit your code regularly and use descriptive messages. This helps both you (in case you ever need to return to old code) and your Team Lead.
 
-## Self-Study/Essay Questions
-
-Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
-
--   [ ] Mention two parts of Express that you learned about this week.
-
--   [ ] Describe Middleware?
-
--   [ ] Describe a Resource?
-
--   [ ] What can the API return to help clients know if a request was successful?
-
--   [ ] How can we partition our application into sub-applications?
-
 ## Minimum Viable Product
 
--   [ ] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
--   [ ] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
+-   [x] Configure an _npm script_ named _"server"_ that will execute your code using _nodemon_. Make _nodemon_ be a development time dependency only, it shouldn't be deployed to production.
+-   [x] Configure an _npm script_ named _"start"_ that will execute your code using _node_.
 
 Design and build the necessary endpoints to:
 
--   [ ] Perform CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
--   [ ] Retrieve the list of actions for a project.
+-   [x] Perform CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
+-   [x] Retrieve the list of actions for a project.
 
 Please read the following sections before implementing the Minimum Viable Product, they describe how the database is structured and the files and methods available for interacting with the data.
 
