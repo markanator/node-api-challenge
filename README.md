@@ -1,5 +1,33 @@
 # Sprint Challenge: Express and Node.js - Projects & Actions
 
+## Heroku LINK
+
+# [HERKO HOSTED API](https://ambro-node-sprint1.herokuapp.com/)
+
+## Interview Questions
+
+Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
+
+1. The core features of Node.js and Express and why they are useful.
+    - NodeJS lets developers use JS to write server code. Express extends Node by providing routing, middleware suport among other features, to simplify REST architecture.
+2. Understand and explain the use of Middleware?
+    - Middleware are like functions that are run in the order we place them in our server/ routes. Small functions that can handle things like Auth, validation etc.
+3. The basic principles of the REST architectural style.
+    - A RESTful system consists of a client who requests resources and a server who has the resources.
+    - There are 6 principles:
+        1. Uniform Interface
+        2. Stateless
+        3. Cacheable
+        4. client / server
+        5. Layered system
+        6. Code on Demand
+4. Understand and explain the use of Express Routers.
+    - Routes associate an HTTP verb (POST/GET/PUT/DELETE) a URL path, and a function to handle that pattern
+5. Describe tooling used to manually test the correctness of an API.
+    - aplications that let us test endpoints by allowing control when making requests. Testing CRUD ops in the application.
+
+You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
+
 ## Description
 
 In this challenge, you design and create a web API to manage the following resources: `Projects` and `Actions`.
@@ -33,19 +61,6 @@ Follow these steps for completing your project.
 ## Commits
 
 Commit your code regularly and use descriptive messages. This helps both you (in case you ever need to return to old code) and your Team Lead.
-
-## Interview Questions
-
-Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
-
-1. The core features of Node.js and Express and why they are useful.
-   NodeJS lets developers us JS to write
-2. Understand and explain the use of Middleware?
-3. The basic principles of the REST architectural style.
-4. Understand and explain the use of Express Routers.
-5. Describe tooling used to manually test the correctness of an API.
-
-You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Minimum Viable Product
 
