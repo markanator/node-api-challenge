@@ -6,7 +6,7 @@ const ActionsRouter = require("./actions/actionsRouter");
 const logger = require("./middleware/logger");
 // init setup
 const server = express();
-const port = 4000;
+const port = process.env.PORT || 4000;
 // middlewares
 server.use(express.json());
 server.use(logger());

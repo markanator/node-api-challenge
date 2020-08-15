@@ -34,19 +34,18 @@ Follow these steps for completing your project.
 
 Commit your code regularly and use descriptive messages. This helps both you (in case you ever need to return to old code) and your Team Lead.
 
-## Self-Study/Essay Questions
+## Interview Questions
 
-Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
+Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
--   [ ] Mention two parts of Express that you learned about this week.
+1. The core features of Node.js and Express and why they are useful.
+   NodeJS lets developers us JS to write
+2. Understand and explain the use of Middleware?
+3. The basic principles of the REST architectural style.
+4. Understand and explain the use of Express Routers.
+5. Describe tooling used to manually test the correctness of an API.
 
--   [ ] Describe Middleware?
-
--   [ ] Describe a Resource?
-
--   [ ] What can the API return to help clients know if a request was successful?
-
--   [ ] How can we partition our application into sub-applications?
+You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
 ## Minimum Viable Product
 
@@ -55,8 +54,8 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Design and build the necessary endpoints to:
 
--   [ ] Perform CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
--   [ ] Retrieve the list of actions for a project.
+-   [x] Perform CRUD operations on _projects_ and _actions_. When adding an action, make sure the `project_id` provided belongs to an existing `project`. If you try to add an action with an `id` of 3 and there is no project with that `id` the database will return an error.
+-   [x] Retrieve the list of actions for a project.
 
 Please read the following sections before implementing the Minimum Viable Product, they describe how the database is structured and the files and methods available for interacting with the data.
 
